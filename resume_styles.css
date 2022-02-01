@@ -1,0 +1,399 @@
+body{
+    margin:0px;
+    background-color: whitesmoke;
+}
+.text-center{
+    text-align: center;
+    justify-content: center;
+}
+
+.flex-setting{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-color1{
+    color: lightgrey;
+}
+
+.text-color2{
+    color: #333333;
+}
+
+/*image*/
+#header-image{
+    height:65vh;
+    opacity:0.8; 
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    margin-top: 0%;
+    
+    
+}
+
+/* navigation links*/
+
+#header-nav{
+    padding:10px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.header-links{
+    color: rgb(206, 206, 206);
+    padding:10px;
+    position:relative;
+    text-decoration: none;
+    
+}
+
+.header-links:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+/*name*/
+
+#my-name{
+    color:rgb(206, 206, 206);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 51%;
+    font-size: 2rem;
+    
+}
+
+/*social media*/
+#social-list{
+    list-style: none;
+    position: relative;
+    color: rgb(206, 206, 206);
+    margin-top: 225px;
+    
+}
+
+#social-list li{
+    display: inline-block;
+    padding:10px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+#social-list li a img {
+    width: 1rem;
+    padding: 8px;
+    
+}
+
+#social-list li:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+}
+#social-list li a img:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+ 
+/*about*/
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+.text-highlight{
+    color: #2857a4;
+    font-weight: bold;
+}
+#logo-image{
+    height:12rem;
+    width:12rem;
+    margin:auto;
+    margin-top: 5vh;
+}
+#about img{
+    border-radius: 50%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+
+}
+#about img:hover{
+    box-shadow: 0px 0px 9px 6px rgba(230, 196, 196, 0.3);
+}
+
+#about p{
+    color:grey;
+    margin:45px 70px 30px 70px;
+    font-weight: 50;
+
+}
+
+/*skills*/
+
+#skills{
+    background-color: lightgrey;
+    width: 100%;
+    height: auto;
+}
+
+
+#skills-header{
+    font-size: 2rem;
+    margin: 20px;
+    text-decoration: blue;
+    padding: 20px;
+    color: #333333;
+}
+
+#skills-header:hover{
+    color: #5a514f;
+}
+
+.fifty-percent{
+    width:50%;
+    background-color: rgb(206, 206, 206);
+    height: inherit;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 1px 1px 5px 2px #4e4e48;
+}
+
+.seventyfive-percent{
+    width:75%;
+    background-color: rgb(206, 206, 206);
+    height: inherit;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 1px 1px 5px 2px #4e4e48;
+    position: relative;
+}
+
+#skills div section{
+    padding: 1px;
+    margin: 30px;
+    height: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 1rem;
+    flex-direction: row;
+    width: 11rem;
+    box-shadow: 1px 1px 4px 2px grey ;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    
+}
+
+#skill-img{
+    display: inline-block;
+    position: relative;
+    
+
+}
+
+#skills-1{
+    background-color: #333333;
+    
+}
+
+#skills-2{
+    background-color: #333333;
+}
+
+#skills-3{
+    background-color: #333333;
+    
+}
+#skills-4{
+    background-color: #333333;
+    
+}
+#skills-5{
+    background-color: #333333;
+    
+}
+#skills-6{
+    background-color: #333333;
+    
+}
+
+
+/*Experience*/
+#experience{
+    background-color: #333333;
+    padding-top: 7px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+/*timeline*/
+.timeline{
+    
+    width: 75%;
+    position: relative;
+    /* border: 2px solid black; */
+    left: 11%;
+    right: 11%;
+    
+}
+
+.timeline-box{
+    position: relative;
+    width: 40%;
+    /* border: 2px solid black; */
+    margin: 10px;
+    min-height: 150px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.timeline-box:nth-child(2n){
+    left: 56%;
+}
+
+.timeline-box:nth-child(2n+1){
+    left: 1%;
+    position: relative;
+}
+
+#experience h1 span{
+    font-size: 2rem;
+    margin: 20px;
+    /* text-decoration: blue; */
+    padding: 20px;
+    color: lightgrey;
+    position: relative;
+    left: 35%;
+    right: 35%;
+    text-align: center;
+}
+
+#experience p{
+    text-align: left;
+}
+/* education */
+#education{
+    background-color: lightgrey;
+    height:auto;
+    /* min-height: fit-content; */
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#education-header{
+    color: #333333;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.degree-text{
+    text-align: right;
+    display: block;
+    padding:5px;
+    
+}
+#education p{
+    padding:5px;
+    text-align: left;
+
+}
+/*Contact*/
+
+#contact{
+    background-color: #333333;
+    height:fit-content
+    /* min-height: fit-content; */
+    width:100vw;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contact-header{
+    color: lightgrey;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    position: relative;
+}
+#contact-img{
+    display: inline-block;
+    position: relative;
+}
+#contact form{
+    display: block;
+   
+}
+#contact-container {
+    display: flex;
+}
+#contact form input{
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid lightgrey;
+    color: lightgrey;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+    position: relative;
+    left: 10%;
+}
+
+#contact form button{
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid lightgrey;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: lightgrey;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact form button:hover{
+    background-color: #333333;
+    color: lightgrey;
+}
+/* get in touch - contacts */
+
+#contact-myinfo{
+    width:30%;
+    margin-left: 6%;
+    position: relative;
+    left: 35vw;
+    text-align: left;
+    padding:10px;
+
+}
+/*social list in contacts*/
+
+#contact li a{
+    margin-top: 30px;
+}
+#contact li:hover{
+    box-shadow: 0px 0px 6px 4px #333333;
+}
+}
+#contact li a img:hover{
+    box-shadow: 0px 0px 6px 4px #333333;
+}
+
+#loc1{
+    position: relative;
+    size: 1px;
+}
